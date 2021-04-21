@@ -8,7 +8,7 @@ const cardList = ({ monster }) => (
       width="180px"
       height="180px"
     />
-    <h2>{monster.name}</h2>;<p>{monster.email}</p>;
+    <h2>{monster.name}</h2><p>{monster.email}</p>
   </div>
 );
 export default cardList;
