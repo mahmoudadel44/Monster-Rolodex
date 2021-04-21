@@ -6,3 +6,11 @@
   grid-gap: 20px;
   flex-wrap: wrap;
 }
+
+@media (max-width:776px){
+	.card-list{
+	  grid-template-columns: 1fr;
+      width: 40vw;
+	}
+
+}
